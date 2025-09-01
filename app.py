@@ -6,8 +6,8 @@ import roles
 import webRTC
 
 
-CLIENT_ID = "963718db-af8e-4003-aa59-2a31301be20b"
-CLIENT_SECRET = "JqVckgpDldMJMmxHivQV2fA8cgatncsgU_Vr_hFQcrE"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 ENVIRONMENT = "usw2.pure.cloud" # eg. mypurecloud.com
 
 
@@ -105,4 +105,5 @@ while(repeat):
     else:
         pageNumber += 1
 wb.save("Users.xlsx")
+
 wb.close()
